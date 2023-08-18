@@ -1,2 +1,0 @@
-~/cs/cs/python/su23/quickshot/bin/python3 ~/cs/cs/python/su23/quickshot/quickshot/quickshot.py --dest_folder=~/.quickshot_temp/
-~/cs/cs/python/su23/ocr_copy_paste/bin/python3 ~/cs/cs/python/su23/ocr_copy_paste/ocr_copy_paste/main.py
