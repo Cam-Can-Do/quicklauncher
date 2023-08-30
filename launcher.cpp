@@ -7,7 +7,8 @@ int main(){
     std::ifstream input(path);
     if (input.is_open()){
         while(std::getline(input, line)){
-            line = "nohup " + line + " &";    // "&" says to run in background
+            // running in background + nohup no longer needed currently
+            // line = "nohup " + line + " &";    // "&" says to run in background
             std::cout << "Executing: " << line << std::endl;
             system(line.c_str());
         }
